@@ -3,6 +3,11 @@ variable "namespace_path" {
   type = string
 }
 
+variable "policy_name" {
+  description = "Vault Policy to grant"
+  type = string
+}
+
 variable "entity_names" {
   description = "Create Vault users and entities with these names"
   type        = list(string)

@@ -4,5 +4,5 @@ resource "vault_identity_entity" "tenant_entitys" {
 
   name              = var.entity_names[count.index]
   external_policies = true
-  policies          = [vault_policy.tentant_admin_policy.name]
+  policies          = [var.policy_name]
 }

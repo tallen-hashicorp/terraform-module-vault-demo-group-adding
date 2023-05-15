@@ -26,6 +26,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_entity_names"></a> [entity\_names](#input\_entity\_names) | Create Vault users and entities with these names | `list(string)` | n/a | yes |
 | <a name="input_namespace_path"></a> [namespace\_path](#input\_namespace\_path) | Vault Namespace Path | `string` | n/a | yes |
+| <a name="input_policy_name"></a> [policy\_name](#input\_policy\_name) | Vault Policy to grant | `string` | n/a | yes |
 
 ## Outputs
 
